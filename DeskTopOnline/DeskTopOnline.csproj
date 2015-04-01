@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4DC4C25F-CECE-4B1D-B570-A4B4EB2DD1D3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DeskTopOnline</RootNamespace>
+    <AssemblyName>DeskTopOnline</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>search.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>0DBC9D74FDAD308126922AA59434E50320DE5D99</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>DeskTopOnline_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormAlarmClockSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAlarmClockSet.Designer.cs">
+      <DependentUpon>FormAlarmClockSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEffect.cs" />
+    <Compile Include="FormEyeGuard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEyeGuard.Designer.cs">
+      <DependentUpon>FormEyeGuard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormBrowser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormBrowser.Designer.cs">
+      <DependentUpon>FormBrowser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPortraitGenerator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPortraitGenerator.Designer.cs">
+      <DependentUpon>FormPortraitGenerator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRestScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRestScreen.Designer.cs">
+      <DependentUpon>FormRestScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormBrowserContainer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBrowserContainer.Designer.cs">
+      <DependentUpon>FormBrowserContainer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormConfig.Designer.cs">
+      <DependentUpon>FormConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormHelp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormHelp.Designer.cs">
+      <DependentUpon>FormHelp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FuncLib.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HotKey.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Shortcut.cs" />
+    <Compile Include="SystemManager.cs" />
+    <Compile Include="ucSearchPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucSearchPanel.Designer.cs">
+      <DependentUpon>ucSearchPanel.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FormAlarmClockSet.resx">
+      <DependentUpon>FormAlarmClockSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEyeGuard.resx">
+      <DependentUpon>FormEyeGuard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBrowser.resx">
+      <DependentUpon>FormBrowser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPortraitGenerator.resx">
+      <DependentUpon>FormPortraitGenerator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRestScreen.resx">
+      <DependentUpon>FormRestScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBrowserContainer.resx">
+      <DependentUpon>FormBrowserContainer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormConfig.resx">
+      <DependentUpon>FormConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormHelp.resx">
+      <DependentUpon>FormHelp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ucSearchPanel.resx">
+      <DependentUpon>ucSearchPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="DeskTopOnline_TemporaryKey.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="search_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="search_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="zinna-mi_32.png" />
+    <None Include="album_left.gif" />
+    <None Include="album_search.gif" />
+    <None Include="Resources\photo_square.gif" />
+    <None Include="Resources\monitor.gif" />
+    <None Include="Resources\package_add.gif" />
+    <None Include="Resources\document_select.gif" />
+    <None Include="Resources\wrench.gif" />
+    <None Include="Resources\cog.gif" />
+    <None Include="Resources\plugin.gif" />
+    <None Include="Resources\clock.gif" />
+    <None Include="Resources\Arrow_Right.png" />
+    <None Include="Resources\Arrow_Left.png" />
+    <None Include="Resources\Stop_16.png" />
+    <None Include="Resources\Arraw_Left_16.png" />
+    <None Include="Resources\Arraw_Right_16.png" />
+    <None Include="Resources\Internet_Go.png" />
+    <None Include="Resources\Refresh_16.png" />
+    <None Include="Resources\Arrow_Right_24.png" />
+    <None Include="Resources\Close_18.png" />
+    <None Include="Resources\Internet_Go_24.png" />
+    <None Include="Resources\Refresh_24.png" />
+    <None Include="Resources\Stop_24.png" />
+    <None Include="Resources\Arrow_Left_24.png" />
+    <None Include="Resources\Internet_Go_16.png" />
+    <None Include="Resources\Internet_Go_Blue_16.png" />
+    <None Include="Resources\Refresh_Blue_16.png" />
+    <None Include="Resources\Close_32.png" />
+    <Content Include="search.ico" />
+    <None Include="symbol_question.gif" />
+    <None Include="我.png" />
+    <None Include="settings.png" />
+    <None Include="search_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CaptureImageTool\CaptureImageTool.csproj">
+      <Project>{13E62362-5D00-418F-83FF-99B2699746D7}</Project>
+      <Name>CaptureImageTool</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
