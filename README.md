@@ -1,7 +1,8 @@
 #desktoponline
-Ò»¿î×ÀÃæĞ¡¹¤¾ß£¬Ö§³Ö³£ÓÃËÑË÷ÒıÇæµÄ¿ì½İ¼ü¼ìË÷ºÍ½ØÍ¼¡¢¹Ø»ú¡¢ĞİÃßµÈÏµÍ³¹¦ÄÜ£¬
-windowsÏµÍ³×¨ÓÃ
+ä¸€æ¬¾æ¡Œé¢å°å·¥å…·ï¼Œæ”¯æŒå¸¸ç”¨æœç´¢å¼•æ“çš„å¿«æ·é”®æ£€ç´¢å’Œæˆªå›¾ã€å…³æœºã€ä¼‘çœ ç­‰ç³»ç»ŸåŠŸèƒ½ï¼Œ
+windowsç³»ç»Ÿä¸“ç”¨
 ![](http://ioilala.sinaapp.com/img/do_main.png)
 ![](http://ioilala.sinaapp.com/img/do_checkshow.png)
 ![](http://ioilala.sinaapp.com/img/do_search.png)
+![](http://ioilala.sinaapp.com/img/do_notify.png)
 
