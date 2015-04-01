@@ -121,9 +121,6 @@
   <data name="album_search" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\album_search.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="zinnami_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\zinna-mi_32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="symbol_question" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\symbol_question.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -136,17 +133,11 @@
   <data name="search_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\search_16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="我" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\我.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="settings" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\settings.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="search_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\search_32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="我1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\我.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="capturescreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\photo_square.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

@@ -98,7 +98,7 @@
             this.tmiSoftWareSet,
             this.toolStripMenuItemQuit});
             this.cmsMain.Name = "cmsMain";
-            this.cmsMain.Size = new System.Drawing.Size(153, 136);
+            this.cmsMain.Size = new System.Drawing.Size(125, 114);
             // 
             // toolStripMenuItemDisplay
             // 
@@ -106,7 +106,7 @@
             this.toolStripMenuItemDisplay.Image = global::DeskTopOnline.Properties.Resources.album_search;
             this.toolStripMenuItemDisplay.Name = "toolStripMenuItemDisplay";
             this.toolStripMenuItemDisplay.ShortcutKeyDisplayString = "";
-            this.toolStripMenuItemDisplay.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItemDisplay.Size = new System.Drawing.Size(124, 22);
             this.toolStripMenuItemDisplay.Text = "隐藏界面";
             this.toolStripMenuItemDisplay.Click += new System.EventHandler(this.toolStripMenuItemDisplay_Click);
             // 
@@ -121,7 +121,7 @@
             this.tmiSystemHibernate});
             this.tmiSystemManage.Image = global::DeskTopOnline.Properties.Resources.systemmanage;
             this.tmiSystemManage.Name = "tmiSystemManage";
-            this.tmiSystemManage.Size = new System.Drawing.Size(152, 22);
+            this.tmiSystemManage.Size = new System.Drawing.Size(124, 22);
             this.tmiSystemManage.Text = "系统控制";
             // 
             // tmiSystemShutDown
@@ -131,7 +131,7 @@
             this.tmiSystemShutDown.ShortcutKeys = ((System.Windows.Forms.Keys)((((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Alt)
                         | System.Windows.Forms.Keys.Shift)
                         | System.Windows.Forms.Keys.X)));
-            this.tmiSystemShutDown.Size = new System.Drawing.Size(188, 22);
+            this.tmiSystemShutDown.Size = new System.Drawing.Size(203, 22);
             this.tmiSystemShutDown.Text = "关机";
             this.tmiSystemShutDown.Click += new System.EventHandler(this.tmiSystemShutDown_Click);
             // 
@@ -139,7 +139,7 @@
             // 
             this.tmiSystemSleep.BackColor = System.Drawing.Color.White;
             this.tmiSystemSleep.Name = "tmiSystemSleep";
-            this.tmiSystemSleep.Size = new System.Drawing.Size(188, 22);
+            this.tmiSystemSleep.Size = new System.Drawing.Size(203, 22);
             this.tmiSystemSleep.Text = "挂起";
             this.tmiSystemSleep.Click += new System.EventHandler(this.tmiSystemSleep_Click);
             // 
@@ -150,7 +150,7 @@
             this.tmiSystemRestart.ShortcutKeys = ((System.Windows.Forms.Keys)((((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Alt)
                         | System.Windows.Forms.Keys.Shift)
                         | System.Windows.Forms.Keys.R)));
-            this.tmiSystemRestart.Size = new System.Drawing.Size(188, 22);
+            this.tmiSystemRestart.Size = new System.Drawing.Size(203, 22);
             this.tmiSystemRestart.Text = "重启";
             this.tmiSystemRestart.Click += new System.EventHandler(this.tmiSystemRestart_Click);
             // 
@@ -158,7 +158,7 @@
             // 
             this.tmiSystemLogoff.BackColor = System.Drawing.Color.White;
             this.tmiSystemLogoff.Name = "tmiSystemLogoff";
-            this.tmiSystemLogoff.Size = new System.Drawing.Size(188, 22);
+            this.tmiSystemLogoff.Size = new System.Drawing.Size(203, 22);
             this.tmiSystemLogoff.Text = "注销";
             this.tmiSystemLogoff.Click += new System.EventHandler(this.tmiSystemLogoff_Click);
             // 
@@ -169,7 +169,7 @@
             this.tmiSystemHibernate.ShortcutKeys = ((System.Windows.Forms.Keys)((((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Alt)
                         | System.Windows.Forms.Keys.Shift)
                         | System.Windows.Forms.Keys.S)));
-            this.tmiSystemHibernate.Size = new System.Drawing.Size(188, 22);
+            this.tmiSystemHibernate.Size = new System.Drawing.Size(203, 22);
             this.tmiSystemHibernate.Text = "休眠";
             this.tmiSystemHibernate.Click += new System.EventHandler(this.tmiSystemHibernate_Click);
             // 
@@ -182,7 +182,7 @@
             this.tmiAlarmClockSet});
             this.功能组件ToolStripMenuItem.Image = global::DeskTopOnline.Properties.Resources.plugin;
             this.功能组件ToolStripMenuItem.Name = "功能组件ToolStripMenuItem";
-            this.功能组件ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.功能组件ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.功能组件ToolStripMenuItem.Text = "功能组件";
             // 
             // tmiCaptureScreen
@@ -192,7 +192,7 @@
             this.tmiCaptureScreen.Name = "tmiCaptureScreen";
             this.tmiCaptureScreen.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Alt)
                         | System.Windows.Forms.Keys.A)));
-            this.tmiCaptureScreen.Size = new System.Drawing.Size(182, 22);
+            this.tmiCaptureScreen.Size = new System.Drawing.Size(193, 22);
             this.tmiCaptureScreen.Text = "手动截屏";
             this.tmiCaptureScreen.Click += new System.EventHandler(this.tmiCaptrueScreen_Click);
             // 
@@ -201,7 +201,7 @@
             this.tmiEyeGuard.BackColor = System.Drawing.Color.White;
             this.tmiEyeGuard.Image = global::DeskTopOnline.Properties.Resources.eyeGuard;
             this.tmiEyeGuard.Name = "tmiEyeGuard";
-            this.tmiEyeGuard.Size = new System.Drawing.Size(182, 22);
+            this.tmiEyeGuard.Size = new System.Drawing.Size(193, 22);
             this.tmiEyeGuard.Text = "开启护眼";
             this.tmiEyeGuard.Click += new System.EventHandler(this.tmiEyeGuard_Click);
             // 
@@ -210,7 +210,7 @@
             this.tmiAlarmClockSet.BackColor = System.Drawing.Color.White;
             this.tmiAlarmClockSet.Image = global::DeskTopOnline.Properties.Resources.clock;
             this.tmiAlarmClockSet.Name = "tmiAlarmClockSet";
-            this.tmiAlarmClockSet.Size = new System.Drawing.Size(182, 22);
+            this.tmiAlarmClockSet.Size = new System.Drawing.Size(193, 22);
             this.tmiAlarmClockSet.Text = "设定闹钟";
             this.tmiAlarmClockSet.Click += new System.EventHandler(this.tmiAlarmClockSet_Click);
             // 
@@ -224,7 +224,7 @@
             this.tmiSystemSet});
             this.tmiSoftWareSet.Image = global::DeskTopOnline.Properties.Resources.softwareset;
             this.tmiSoftWareSet.Name = "tmiSoftWareSet";
-            this.tmiSoftWareSet.Size = new System.Drawing.Size(152, 22);
+            this.tmiSoftWareSet.Size = new System.Drawing.Size(124, 22);
             this.tmiSoftWareSet.Text = "软件设置";
             // 
             // tmiShortCut
@@ -232,7 +232,7 @@
             this.tmiShortCut.BackColor = System.Drawing.Color.White;
             this.tmiShortCut.Image = global::DeskTopOnline.Properties.Resources.shortcut;
             this.tmiShortCut.Name = "tmiShortCut";
-            this.tmiShortCut.Size = new System.Drawing.Size(122, 22);
+            this.tmiShortCut.Size = new System.Drawing.Size(124, 22);
             this.tmiShortCut.Text = "快捷方式";
             this.tmiShortCut.Click += new System.EventHandler(this.toolStripMenuItemShortCut_Click);
             // 
@@ -240,7 +240,7 @@
             // 
             this.toolStripMenuItemStartUp.BackColor = System.Drawing.Color.White;
             this.toolStripMenuItemStartUp.Name = "toolStripMenuItemStartUp";
-            this.toolStripMenuItemStartUp.Size = new System.Drawing.Size(122, 22);
+            this.toolStripMenuItemStartUp.Size = new System.Drawing.Size(124, 22);
             this.toolStripMenuItemStartUp.Text = "开机启动";
             this.toolStripMenuItemStartUp.Click += new System.EventHandler(this.toolStripMenuItemStartUp_Click);
             // 
@@ -249,7 +249,7 @@
             this.tmiHelp.BackColor = System.Drawing.Color.White;
             this.tmiHelp.Image = global::DeskTopOnline.Properties.Resources.symbol_question;
             this.tmiHelp.Name = "tmiHelp";
-            this.tmiHelp.Size = new System.Drawing.Size(122, 22);
+            this.tmiHelp.Size = new System.Drawing.Size(124, 22);
             this.tmiHelp.Text = "软件帮助";
             this.tmiHelp.Click += new System.EventHandler(this.toolStripMenuItemHelp_Click);
             // 
@@ -258,7 +258,7 @@
             this.tmiSystemSet.BackColor = System.Drawing.Color.White;
             this.tmiSystemSet.Image = global::DeskTopOnline.Properties.Resources.settings;
             this.tmiSystemSet.Name = "tmiSystemSet";
-            this.tmiSystemSet.Size = new System.Drawing.Size(122, 22);
+            this.tmiSystemSet.Size = new System.Drawing.Size(124, 22);
             this.tmiSystemSet.Text = "系统设置";
             this.tmiSystemSet.Click += new System.EventHandler(this.tmiSystemSet_Click);
             // 
@@ -267,7 +267,7 @@
             this.toolStripMenuItemQuit.BackColor = System.Drawing.Color.White;
             this.toolStripMenuItemQuit.Image = global::DeskTopOnline.Properties.Resources.album_left;
             this.toolStripMenuItemQuit.Name = "toolStripMenuItemQuit";
-            this.toolStripMenuItemQuit.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItemQuit.Size = new System.Drawing.Size(124, 22);
             this.toolStripMenuItemQuit.Text = "退出程序";
             this.toolStripMenuItemQuit.Click += new System.EventHandler(this.toolStripMenuItemQuit_Click);
             // 
@@ -447,7 +447,7 @@
             // btnSearch
             // 
             this.btnSearch.ContextMenuStrip = this.cmsMain;
-            this.btnSearch.Image = global::DeskTopOnline.Properties.Resources.zinnami_32;
+            this.btnSearch.Image = global::DeskTopOnline.Properties.Resources.search_16;
             this.btnSearch.Location = new System.Drawing.Point(547, 2);
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.Size = new System.Drawing.Size(33, 33);

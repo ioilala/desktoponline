@@ -16,7 +16,8 @@ using CSharpWin_JD.CaptureImage;
 namespace DeskTopOnline
 {
     /*********************************
-     * 版本:1.1.6.2
+     * 版本:1.1.6.3
+     * 作者:hust_wsh@qq.com
      * 问题:
      * .listBrowser.RemoveAt bug，索引超出范围
      * .保护眼睛休息存在bug
@@ -742,7 +743,7 @@ namespace DeskTopOnline
         {
             if (Control.ModifierKeys == Keys.Shift)//恢复默认图标
             {
-                btnSearch.Image = global::DeskTopOnline.Properties.Resources.zinnami_32;
+                btnSearch.Image = global::DeskTopOnline.Properties.Resources.search_16;
                 return;
             }
             if (Control.ModifierKeys == Keys.Alt)//更换图标
